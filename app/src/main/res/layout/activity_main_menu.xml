@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20px"
+    tools:context=".MainMenu">
+
+
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="right"
+        android:background="@drawable/info1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bubblegum_sans"
+        android:gravity="center"
+        android:text="Menu"
+        android:textSize="40dp" />
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp">
+        <TableRow
+            android:layout_marginTop="5dp">
+
+            <Button
+                android:id="@+id/btn_berita"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/berita"
+                android:gravity="center" />
+
+            <Button
+                android:id="@+id/btn_kalender"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="70dp"
+                android:background="@drawable/kalender"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Berita"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:fontFamily="@font/bubblegum_sans"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kalender"
+                android:gravity="right"
+                android:paddingRight="30dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/bubblegum_sans"
+                android:textSize="20dp" />
+        </TableRow>
+
+        <TableRow android:layout_marginTop="20dp">
+            <Button
+                android:id="@+id/btn_jadwal"
+                android:layout_width="100px"
+                android:layout_height="100px"
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+                android:background="@drawable/jadwal" />
+
+            <Button
+                android:id="@+id/btn_tausiah"
+                android:layout_width="100px"
+                android:layout_height="100px"
+                android:layout_marginLeft="70dp"
+                android:background="@drawable/tausyiah"/>
+        </TableRow>
+
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Berita"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:fontFamily="@font/bubblegum_sans"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kalender"
+                android:gravity="right"
+                android:paddingRight="30dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/bubblegum_sans"
+                android:textSize="20dp" />
+        </TableRow>
+
+        <TableRow android:layout_marginTop="20dp">
+            <Button
+                android:id="@+id/btn_surat"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+                android:background="@drawable/surah" />
+
+            <Button
+                android:id="@+id/btn_hadist"
+                android:layout_width="100px"
+                android:layout_height="100px"
+                android:layout_marginLeft="70dp"
+                android:background="@drawable/quot1"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Berita"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:fontFamily="@font/bubblegum_sans"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kalender"
+                android:gravity="right"
+                android:paddingRight="30dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/bubblegum_sans"
+                android:textSize="20dp" />
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

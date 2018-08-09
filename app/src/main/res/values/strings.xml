@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MuslimApps</string>
+    <string name="icon1">Berita</string>
+    <string name="icon2">Kalender</string>
+    <string name="icon3">Jadwal Sholat</string>
+    <string name="icon4">Tausyiah</string>
+    <string name="icon5">Surah dan Doa</string>
+    <string name="icon6">Hadist</string>
+    <string name="icon7">About US</string>
+</resources>
