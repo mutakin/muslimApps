@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".TentangKami">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tentang"
+        android:layout_marginTop="50dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tentang"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/bubblegum_sans"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MUSLIM APPS"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/bubblegum_sans"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Versi 1.0.0 App"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/bubblegum_sans"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:fontFamily="@font/bubblegum_sans"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:layout_marginTop="25dp"
+        android:text="MUSLIM APPS adalah Sebuah aplikasi pengingat jadwal sholat untuk muslim millenial yang gratis dan user friendly dan tanpa iklan. Hadir sebagai kawan terbaikmu, MUSLIM APPS ingin selalu mengingatkanmu meuju surga Allah dengan cara-cara yang lebih kekinian"/>
+
+</LinearLayout>

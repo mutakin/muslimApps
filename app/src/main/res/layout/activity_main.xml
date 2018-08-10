@@ -5,20 +5,202 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:gravity="center"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/amatica_sc"
-        android:text="Tentang Kami"
-        android:textColor="@color/black"
-        android:textSize="50sp"
-        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="@drawable/back">
+
+        <ImageView
+            android:id="@+id/btn_about"
+            android:layout_width="40dp"
+            android:layout_margin="20dp"
+            android:layout_gravity="right"
+            android:layout_height="40dp"
+            android:src="@drawable/tentang" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Muslim Apps"
+            android:textColor="#fff"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:gravity="bottom"/>
+    </LinearLayout>
+
+    <LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:orientation="vertical"
+    android:layout_weight="1"
+    android:weightSum="2"
+    android:background="@drawable/back_bawah">
+
+    <!--tempat button atas-->
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:orientation="horizontal"
+    android:weightSum="3">
+    <RelativeLayout
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1">
+
 
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+    android:id="@+id/btn_berita"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    android:layout_centerInParent="true"
+    android:src="@drawable/berita" />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="5dp"
+    android:text="Berita Islam"
+    android:fontFamily="serif-monospace"
+    android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1">
+
+    <ImageView
+    android:id="@+id/btn_kalender"
+    android:layout_width="122dp"
+    android:layout_height="130dp"
+    android:layout_centerInParent="true"
+    android:src="@drawable/kalender" />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="5dp"
+    android:text="Kalender"
+    android:fontFamily="serif-monospace"
+    android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1">
+
+    <ImageView
+    android:id="@+id/btn_jadwal"
+    android:layout_width="122dp"
+    android:layout_height="130dp"
+    android:layout_centerInParent="true"
+    android:src="@drawable/jadwal" />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="5dp"
+    android:text="Jadwal Shalat"
+    android:fontFamily="serif-monospace"
+    android:textStyle="bold" />
+    </RelativeLayout>
+
+    </LinearLayout>
+
+    <!--tempat button bawah-->
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:weightSum="3">
+
+
+    <RelativeLayout
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1">
+
+    <ImageView
+    android:id="@+id/btn_tausiah"
+    android:layout_width="122dp"
+    android:layout_height="130dp"
+    android:layout_centerInParent="true"
+    android:src="@drawable/tausyiah" />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="5dp"
+    android:text="Video Islam"
+    android:fontFamily="serif-monospace"
+    android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1">
+
+    <ImageView
+    android:id="@+id/btn_surah"
+    android:layout_width="122dp"
+    android:layout_height="130dp"
+    android:layout_centerInParent="true"
+    android:src="@drawable/surah" />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="5dp"
+    android:text="Surah"
+    android:fontFamily="serif-monospace"
+    android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1">
+
+    <ImageView
+    android:id="@+id/btn_hadist"
+    android:layout_width="122dp"
+    android:layout_height="130dp"
+    android:layout_centerInParent="true"
+    android:src="@drawable/hadist" />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="5dp"
+    android:text="Hadist"
+    android:fontFamily="serif-monospace"
+    android:textStyle="bold" />
+    </RelativeLayout>
+
+    </LinearLayout>
+
+
+    </LinearLayout>
 
 </LinearLayout>

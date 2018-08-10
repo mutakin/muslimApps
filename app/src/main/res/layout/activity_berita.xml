@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Berita"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bubblegum_sans"
+        android:textColor="@color/black"
+        android:text="Berita"
+        android:textSize="50dp"
+        android:gravity="center"/>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/berita1"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:fontFamily="@font/bubblegum_sans"
+        android:textColor="@color/black"
+        android:layout_marginBottom="20dp"
+        android:text="JAKARTA (voa-islam.com), Aktivis 212,Eggi Sudjana menegaskan mewarnai politik dengan agama bukanlah politisasi agama. Menurut Advokat Senior itu, kehidupan umat Islam semua harus berlandaskan agama sebagaimana tuntutan Al Quran.
+
+Oleh karena itu, ia tegaskan, Ijtima Ulama dan Tokoh Nasional oleh GNPF-Ulama yang merekomendasikan kepemimpinan bukanlah politisasi agama.
+
+Saya mendasari semuanya dari ayat inna sholati wa nusuki wamahyaya wamamati lillahi robbil alamin, bahwa semua kehidupan harus komitmen kepada Allah, di dalam perspektif agama selama kita hidup ada politik. Jadi apa yang disebut politisasi agama itu tidak benar, katanya Diskusi Publik, Ijtima Ulama Politik Agama atau Politisasi Agama? oleh Lembaga Penelitian Pengembangan Agama dan Sosial (Leppas), D'Hotel, Guntur Jakarta, Rabu (8/8/2018).
+
+Eggi kemudian menjelaskan dimensi dari ayat tersebut, terkait dimensi ibadah, hidup, dan mati. Eggi menentang apabila setiap bicara politik dikaitkan dengan agama langsung disebut sebagai politisasi agama, sebab melandasi politik dengan agama adalah perintah al Quran.
+
+Kenapa saya tidak sependapat (sebutan politisasi agama), sebab Al Quran mengajarkan kita agar seluruh hidup komitmen dengan Allah SWT dalam dimensi shalat itu, ujarnya.
+
+Shalat memiliki tiga dimensi, pertama adalah dimensi keyakinan berada dalam tataran meyakini praktek shalat. Kedua, dimensi ibadah dalam hidup (wa nusuki wamahyaya), artinya selama hidup setiap muslim tidak boleh lepas dari komitmen ibadah.
+
+Kalau orang Barat time is money, kalau kita time is pray, bagaimana realisasinya? Dalam shalat konteks pertama, saat kita sujud dengan otak (untuk Allah). Nah, sujud dalam kehidupan adalah memperjuangkan gagasan, ide dan sistem agar tidak boleh bertentangan dengan Allah SWT, Quran dan Nabi Muhammad saw, Jelasnya.
+
+Eggi meminta kaum Muslimin tidak menganut gagasan sekuler, sebab bertentangan dengan prinsip ibadah dalam hidup. Persoalan serius di Indonesia, sejak kecil bahkan sejak kemerdekaan pendidikan kita masih diajarkan sekuler. Kita sekolah umum, kalau mau belajar agama harus madrasah ibtidaiyah dulu, keterpisahan ini kota tahu namanya sekuler, ungkapnya.
+
+Oleh karena itu, lanjut Eggi, kepemimpinan juga tidak boleh sekuler. Maka, Ijtima Ulama dan Tokoh Nasional beberapa waktu lalu berusaha mencari pemimpin yang tidak sekuler, minimal punya kecenderungan dekat dengan umat Islam.
+
+Kita mencari secara objektifitas, kecenderungan Prabowo juga tidak bisa dielakkan (ke Islam), kalau kita mempersoalkan dia bisa ngaji atau tidak, capek kita diskusi, yang penting substansinya, tuturnya.
+
+Ijtima melihat Prabowo punya modal elektabilitas, selebihnya secara sisi keagamaan tinggal disandingi oleh sosok ulama. Substansinya, kita mensujudkan kehidupan dan politik agar tunduk pada syariat, tukasnya.
+
+Lebih dari itu, dari ayat dikutip Eggi, ada dimensi shalat bermakna kematian untuk Allah. Kematian seorang muslim harus dipersembahkan untuk Allah, fisabilillah. Apabila dalam perjalanan beribadah ke Allah SWT diganggu, lalu mati maka matinya syahid.
+
+Kita menjadi syahid, syahid tidak perlu dishalatkan, karena dia sejatinya sudah shalat, kapan shalatnya? Ketika dia mensujudkan sistem kehidupan tadi untuk Islam. Kalau orang mengerti ayat Inna sholati wanusuki wamayahya wamamati, dia akan paham bahwa ini tidak bisa disebut politisasi agama. Tapi, sudah didik sejak kecil sekuler, jadi tidak paham, ujarnya. (bil/voa-islam)"/>
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="200dp"
+        android:src="@drawable/berita2"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:fontFamily="@font/bubblegum_sans"
+        android:textColor="@color/black"
+        android:layout_marginBottom="20dp"
+        android:text="JAKARTA (voa-islam.com), Ketua Gerakan Nasional Pengawal Fatwa (GNPF) Ulama, Ustadz Yusuf Muhammad Martak  berharap Prabowo Subianto memilih cawapres sesuai dengan hasil ijtima ulama sebelum mengumumkan pasangannya secara resmi. Yusuf menilai sikap Jokowi lebih cerdas ketika memilih ulama sebagai pendampingnya. Ia berharap Prabowo juga mengambil sikap yang sama untuk memilih ulama.
+
+Saya dengar Pak Jokowi untuk periode kedua didampingi Pak Maruf Amin. Pak Jokowi lebih cerdas daripada kita,  kata Yusuf kepada wartawan di Jalan Kertanegara, Kebayoran, Jakarta Selatan, Kamis (9/8/2018).
+
+Yusuf berharap Prabowo mempertimbangkan kembali sosok yang akan mendampinginya di pilpres 2019, agar tidak menimbulkan kekalahan kembali untuk kesekian kalinya. GNPF akan berupaya mendorong solusi dengan menggelar Ijtima Ulama kembali.
+
+Jadi menurut saya, yang terbaik dibicarakan, dirundingkan, lagi yang benar, dipertimbangkan dengan baik. Jangan sampai nantinya alami kegagalan yang ketiga dan keempat karena kami akan lakukan musyawarah Ijtima Ulama yang kedua, ucapnya.
+
+Diketahui,  beberapa waktu GNPF Ulama menggelar Ijtima Ulama dan Tokoh Nasional dengan rekomandasi dua cawapres untuk dipasangkan dengan Prabowo, yaitu Ustadz Abdul Somad dan Habib Salim Segaf Aljufri.
+
+GNPF Ulama merekomendasikan cawapres alternatif, yaitu Ustadz Arifin Ilham dan Ustadz Abdullah Gymnastiar atau Aa Gym, Karena Ustad Abdul Somad tidak bersedia.
+
+Yusuf berpendapat posisi ulama sebagai penguasa itu penting, karena selama ini sudah terbukti ulama setia membimbing dan mendidik masyarakat. Oleh sebab itu, Prabowo juga harus mengambil ulama sebagai pendamping.
+
+Karena, sekarang sudah dibuktikan bahwa ulama itu adalah pengayom masyarakat ulama, itu bisa membimbing, bisa mengawal, bisa memberikan nasihat agar pimpinan negara republik Indonesia tidak jalan semaunya sendiri, tandasnya. (bil/voa-islam)"/>
+
+</LinearLayout>
+</ScrollView>
